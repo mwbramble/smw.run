@@ -4,7 +4,7 @@ import './tutorials.css';
 export default class Tutorials extends Component{
   render(){
     return (
-      <section className='tutorials-container'>
+      <section className='main-container'>
         <h1 id='page-title'>Tutorials</h1>
         <ul>
           <li><b><a href='https://www.youtube.com/watch?v=uethAdgTs9k'>Morton Fly</a></b> by Bramz.</li>

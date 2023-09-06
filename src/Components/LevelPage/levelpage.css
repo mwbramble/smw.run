@@ -4,7 +4,7 @@
 }
 
 .level-info{
-  width: 256px;
+  width: 20vw - 10px;
   float: right;
   padding: 15px;
 
@@ -14,9 +14,14 @@
 .strat-container{
   margin: 0 0 10px 0;
   padding: 15px;
-  width: 771px;
+  width: 40vw;
+  display: inline-block;
 
   background-color: var(--content-highlight-bg);
+}
+
+section{
+  float: right;
 }
 
 iframe{
@@ -24,6 +29,14 @@ iframe{
   min-height: 320px;
   height: auto;
   width: 100%;
+  float: left;
+  padding-right: 10px;
+}
+
+#category-list{
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 12px;
 }
 
 #info-text{

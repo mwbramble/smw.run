@@ -84,7 +84,7 @@ export default class CategoryPage extends Component {
 
   render(){
     return (
-      <section className='catpage-container'>
+      <section className='main-container'>
         <h1 id='page-title'>{this.state.category[0].title}</h1>
         <div className='category-container'>
           <div className='category-about-rules'>

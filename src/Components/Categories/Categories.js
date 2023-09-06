@@ -6,7 +6,7 @@ import './categories.css';
 export default class Categories extends Component{
   render(){
     return (
-      <section className='categories-container'>
+      <section className='main-container'>
         <h1 id='page-title'>Categories</h1>
         <div className='lists-container'>
           <div className='category-list'>

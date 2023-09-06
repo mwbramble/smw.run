@@ -7,7 +7,7 @@ import './home.css';
 export default class Home extends Component{
   render(){
     return (
-      <section className='home-container'>
+      <section className='main-container'>
         <h1 id='page-title'>Welome to the home of all things SMW Speedrunning!</h1>
         <h3>Weekly 96 Exit races are held on Fridays at 8:00pm ET!</h3>
         <p>Need to learn some strats? Be sure to check out the <b><Link to={'/levels'}>level pages</Link></b>.</p>

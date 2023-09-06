@@ -22,26 +22,24 @@ export default class LevelPage extends Component{
   }
 
   render(){
-    console.log(this.state.l)
+    // console.log(this.state.l)
     return (
-      <section className='level-page-container'>
+      <section className='main-container'>
         <h1 id='page-title'>{this.state.l.name}</h1>
         <div className='level-container'>
           {this.state.l.strats.secret ? <h3 id='exit-type'>Normal</h3> : ''}
           {this.state.l.strats.normal ? this.state.l.strats.normal.map(s => {
+            console.log(s)
             return (
               <div className='strat-container'>
                 <h3 id='strat-name' onClick={(e) => this.toggle(s.id)}>{s.name}{s.time ? ` - ${s.time}` : ''} | Source: {s.source}</h3>
                 <p><strong>Categories:</strong> {s.categories.join(', ')}</p>
                 {s.id === this.state.activeStrat ? (
                   <>
-                    <iframe title={s.name} width='570' height='320' src={'https://youtube.com/embed/' + s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                    <br />
-                    <p id='strat-desc'>{s.desc === '' ? '' : s.desc}</p>
-                    {s.descLink
-                      ? <><br /><Link to={s.descLink.path}>{s.descLink.text}</Link></>
-                      : null
-                    }
+                    <section className='active-strat'>
+                      <iframe title={s.name} width='570' height='320' src={'https://youtube.com/embed/' + s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                      {s.desc === '' ? '' : s.desc}
+                    </section>
                   </>
                 ) : ''}
               </div>

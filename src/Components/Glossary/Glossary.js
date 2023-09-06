@@ -4,7 +4,7 @@ import './glossary.css';
 export default class Glossary extends Component {
   render(){
     return (
-      <section className='glossary-container'>
+      <section className='main-container'>
         <h1 id='page-title'>Glossary</h1>
         <p>Here are some terms/strats that you will probably come across in your SMW speedrunning adventures.</p>
         <h3>Terms</h3>

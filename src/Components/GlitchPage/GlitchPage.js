@@ -4,7 +4,7 @@ import './glitchpage.css';
 export default class GlitchPage extends Component{
   render(){
     return (
-      <section className='glitch-container'>
+      <section className='main-container'>
         <h1>Glitch</h1>
       </section>
     )

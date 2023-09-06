@@ -6,7 +6,7 @@ import './levels.css';
 export default class Levels extends Component{
   render(){
     return (
-      <section className='levels-container'>
+      <section className='main-container'>
         <h1 id='page-title'>Levels</h1>
         <div className='lists-container'>
           <div className='world-list'>
