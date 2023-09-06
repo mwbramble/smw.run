@@ -28,6 +28,10 @@ main{
   height: 100%;
 }
 
+.main-container{
+  width: 100%;
+}
+
 .content{
   min-height: calc(100vh - 185px);
   overflow: auto;
