@@ -1,0 +1,18 @@
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: left;
+  width: 100%;
+  font-family: 'lmsans10-regular';
+}
+
+.coll-content{
+  display: none;
+  transition: max-height 0.2s ease-out;
+}
+
+.exp-content{
+  display: block;
+  transition: max-height 0.2s ease-out;
+}

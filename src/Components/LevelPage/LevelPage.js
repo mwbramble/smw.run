@@ -25,7 +25,7 @@ export default class LevelPage extends Component{
     // console.log(this.state.l)
     return (
       <section className='main-container'>
-        <h1 id='page-title'>{this.state.l.name}</h1>
+        <h1 id='page-title'>{this.state.l.name} | <Link to={`/levelsnew/${this.state.l.id}`}>temp</Link></h1>
         <div className='level-container'>
           {this.state.l.strats.secret ? <h3 id='exit-type'>Normal</h3> : ''}
           {this.state.l.strats.normal ? this.state.l.strats.normal.map(s => {
