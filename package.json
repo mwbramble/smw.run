@@ -1,10 +1,11 @@
 {
   "name": "smw-speedrunning-site",
   "version": "0.1.0",
+  "homepage": "https://mwbramble.github.io/smw.run",
   "private": true,
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^5.0.1"
   },
@@ -28,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
