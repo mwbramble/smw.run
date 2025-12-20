@@ -1,7 +1,7 @@
 {
   "name": "smw-speedrunning-site",
   "version": "0.1.0",
-  "homepage": "https://mwbramble.github.io/smw.run",
+  "homepage": "https://smw.run",
   "private": true,
   "dependencies": {
     "react": "^19.2.3",
