@@ -5,7 +5,7 @@ export default class Footer extends Component{
   render(){
     return (
       <footer>
-        <p>&copy; Michael Bramble 2023</p>
+        <p>&copy; Michael Bramble 2025</p>
       </footer>
     )
   }

@@ -17,13 +17,49 @@ export default [
         source: `Bramz`
       },
       {
-        name: 'B5 Cloud Setup (11 Exit)',
-        difficulty: 'Intermediate',
+        name: '11 Exit (Cloud) - Easy Setup',
+        difficulty: 'Beginner',
         id: 1,
+        time: 354,
+        link: 'hk8rVl6ldwY',
+        desc: `Consider this strat if you are struggling with the B5 setup.`,
+        source: `LostC0re`
+      },
+      {
+        name: '11 Exit (Cloud) - B5 Setup',
+        difficulty: 'Intermediate',
+        id: 2,
         time: 356,
         link: 'ZhB4VpPE1SU',
         desc: `You need to despawn the Koopa in a pixel-perfect location. If you are struggling with this, consider the easy setup.`,
         source: `IsoFrieze`
+      },
+      {
+        name: '11 Exit (Cloud) - B5 Setup',
+        difficulty: 'Intermediate',
+        id: 2,
+        time: 356,
+        link: 'ZhB4VpPE1SU',
+        desc: `You need to despawn the Koopa in a pixel-perfect location. If you are struggling with this, consider the easy setup.`,
+        source: `IsoFrieze`
+      },
+      {
+        name: '11 Exit (Orb)',
+        difficulty: 'Beginner',
+        id: 3,
+        time: 358,
+        link: 'xG0FNEOpYzU',
+        desc: `Use this strat if you need to get Orb. This is useful in 11 Exit (Orb) and many extra categories.`,
+        source: `Sten`
+      },
+      {
+        name: 'Lunar Dragon',
+        difficulty: 'Beginner',
+        id: 4,
+        time: 359,
+        link: '',
+        desc: ``,
+        source: ``
       }
     ],
   }

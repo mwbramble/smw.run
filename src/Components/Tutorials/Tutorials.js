@@ -21,7 +21,7 @@ export default class Tutorials extends Component{
           <li><b><a href='https://www.youtube.com/watch?v=vdWxNuiA-n8'>No Cape Kill</a></b> by MaestroBrau.</li>
           <li><b><a href='https://www.youtube.com/watch?v=ypiHsiRCpEs'>Cloud Fight (Expert Strats)</a></b> by Drams_Cat.</li>
           <li><b><a href='https://www.youtube.com/watch?v=TG_79G7dU9E'>Cloud Fight (Beginner Strats)</a></b> by Drams_Cat.</li>
-          <li><b><a href='https://www.youtube.com/watch?v=34zftjJUD3U'>Small Only</a></b> by rezephos.</li>
+          <li><b><a href='https://www.youtube.com/watch?v=34zftjJUD3U'>Small Only</a></b> by reze.</li>
         </ul>
       </section>
     )
