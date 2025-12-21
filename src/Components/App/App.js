@@ -8,7 +8,6 @@ import Contact from '../Contact/Contact';
 import Glossary from '../Glossary/Glossary';
 import Levels from '../Levels/Levels';
 import LevelPage from '../LevelPage/LevelPage';
-import LevelPageNew from '../LevelPageNew/LevelPageNew';
 import Resources from '../Resources/Resources';
 import Tutorials from '../Tutorials/Tutorials';
 import NotFound from '../NotFound/NotFound';
@@ -49,10 +48,6 @@ export default class App extends Component{
             <Route
               exact path='/levels/:id'
               component={LevelPage}
-            />
-            <Route
-              exact path='/levelsnew/:id'
-              component={LevelPageNew}
             />
             <Route
               exact path='/resources'
