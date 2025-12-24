@@ -1,5 +1,24 @@
 export default [
   {
+    name: `Yoshi's Island 1`,
+    id: '105',
+    world: 1,
+    powerups: ['Mushroom', 'Yoshi'],
+    dragoncoins: true,
+    moon: true,
+    normal: [
+      {
+        name: 'All Categories',
+        difficulty: 'Beginner',
+        id: 0,
+        time: 361,
+        link: 'Hmod32SwX6w',
+        desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
+        source: `Bramz`
+      },
+    ],
+  },
+  {
     name: `Yoshi's Island 2`,
     id: '106',
     world: 1,

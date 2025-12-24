@@ -33,7 +33,7 @@ button{
 .strat-container{
   margin: 0 0 10px 0;
   padding: 15px;
-  width: 40vw;
+  width: 100%;
   display: inline-block;
 
   background-color: var(--content-highlight-bg);
