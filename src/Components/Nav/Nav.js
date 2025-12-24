@@ -36,8 +36,10 @@ export default class Nav extends Component{
   render(){
     return (
       <nav role='navigation' className='nav'>
-        <Link to={'/'}><img src={Seal} id='seal' alt='SMW Seal' /></Link>
-        <h1 id='title'>SMW Speedrunning Info</h1>
+        <Link to={'/'}>
+          <img src={Seal} id='seal' alt='SMW Seal' />
+          <h1 id='title'>SMW Speedrunning Info</h1>
+        </Link>
         <ul className='nav-link-list'>
           <NavLink to={'/levels'} className='nav-link'>
             <li>Levels</li>

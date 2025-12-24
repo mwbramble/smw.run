@@ -34,7 +34,7 @@
 
 .nav li:hover{
   background-color: var(--nav-li-hover);
-
+  
   text-decoration: none;
 }
 
@@ -118,6 +118,7 @@ input:checked + .slider:before {
 }
 
 #title{
+  color: var(--nav-text);
   margin: 10px auto 15px;
 }
 

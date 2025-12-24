@@ -68,9 +68,8 @@ export default class CategoryPageNew extends Component {
         return(
             <section className='main-container'>
                 <h1 id='page-title'>{cat.title}</h1>
-                <div id='wr-section'>
-                    {loading ? (<span>Loading...</span>) : data ? (
-                        <div id='wr'>
+                {loading ? (<span>Loading...</span>) : data ? (
+                        <div>
                             <span>WR is {wrTime} by {wrRunner}</span>
                             <br />
                             <small>
@@ -82,7 +81,7 @@ export default class CategoryPageNew extends Component {
                             <span>WR is unavailable.</span>
                         </div>
                     )}
-                </div>
+                <br />
                 <h3 id='about'>About</h3>
                 <p id='desc'>{cat.desc}</p>
                 <hr />

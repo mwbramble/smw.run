@@ -35,15 +35,6 @@ export default [
         source: `IsoFrieze`
       },
       {
-        name: '11 Exit (Cloud) - B5 Setup',
-        difficulty: 'Intermediate',
-        id: 2,
-        time: 356,
-        link: 'ZhB4VpPE1SU',
-        desc: `You need to despawn the Koopa in a pixel-perfect location. If you are struggling with this, consider the easy setup.`,
-        source: `IsoFrieze`
-      },
-      {
         name: '11 Exit (Orb)',
         difficulty: 'Beginner',
         id: 3,
