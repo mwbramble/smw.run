@@ -32,7 +32,7 @@ export default class LevelPageNew extends Component{
           <img id='level-image' src={require(`../../Images/Levels/${this.state.l.id}.png`)} alt={this.state.l.name} />
           <p id='info-text'>
             <b>Available Powerups:</b> {this.state.l.powerups.join(', ')}<br />
-            This level {this.state.l.dragoncoins ? 'has' : 'does not have'} Dragon Coins{this.state.l.moon ? ' and a Moon' : ''}.
+            This level {this.state.l.dragoncoins ? 'has Dragon Coins' : 'does not have Dragon Coins or a Moon'}{this.state.l.moon ? ' and a Moon' : ''}.
           </p>
         </div>
         <div className='level-container'>
