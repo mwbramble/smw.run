@@ -31,7 +31,7 @@ export default class LevelPageNew extends Component{
           <p id='info-title'>Overworld Location</p>
           <img id='level-image' src={require(`../../Images/Levels/${this.state.l.id}.png`)} alt={this.state.l.name} />
           <p id='info-text'>
-            <b>Available Powerups:</b> {this.state.l.powerups.join(', ')}<br />
+            <b>Available Powerups:</b> {this.state.l.powerups[0] ? this.state.l.powerups.join(', ') : `None`}<br />
             This level {this.state.l.dragoncoins ? 'has Dragon Coins' : 'does not have Dragon Coins or a Moon'}{this.state.l.moon ? ' and a Moon' : ''}.
           </p>
         </div>
