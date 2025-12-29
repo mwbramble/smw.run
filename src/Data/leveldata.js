@@ -3,54 +3,10 @@ export default [
     name: `Yoshi's Island 1`,
     id: '105',
     world: 1,
-    powerups: ['Mushroom', 'Fire'],
+    powerups: ['Mushroom', 'Yoshi'],
     dragoncoins: true,
     moon: true,
-    strats: {
-      normal: [
-        {
-          name: 'No Cape, Yoshi, Get Orb',
-          id: 1,
-          categories: ['11 (Orb)'],
-          time: 249,
-          link: 'i6nbwgtzm-A',
-          desc: `In most cases, it is fastest to die after getting the orb so you don't have to watch the Yellow Switch Palace overworld events.`,
-          descLink: {
-            path: '/glitches/orb',
-            text: 'Learn more about the Orb glitch here.'
-          },
-          source: `Sten`
-        },
-        {
-          name: 'Cape',
-          id: 2,
-          categories: ['96'],
-          time: 261,
-          link: 'ggbJON0imHI',
-          desc: ``,
-          source: `Sten`
-        },
-        {
-          name: 'No Cape',
-          id: 3,
-          categories: ['95NC', 'SO'],
-          time: 260,
-          link: 'p33u8WQlnYM',
-          desc: ``,
-          source: `Sten`
-        },
-        {
-          name: 'Dragon Coins',
-          id: 4,
-          categories: ['LD'],
-          time: 259,
-          link: 'hZznveNmmtc',
-          desc: ``,
-          source: `Umari0`
-        }
-      ],
-      secret: null
-    }
+    normal: [],
   },
   { // YI2
     name: `Yoshi's Island 2`,
@@ -58,289 +14,90 @@ export default [
     world: 1,
     powerups: ['Mushroom', 'Yoshi'],
     dragoncoins: true,
-    strats: {
-      normal: [
-        {
-          name: `Small Only`,
-          id: 1,
-          categories: [
-            `96`,
-            `AC`,
-            `NSW`,
-            `11 (Glitchless)`,
-            `95NC`,
-            `ACNC`,
-            `NCNSW`,
-            `11NC (Glitchless)`,
-            `ACSO`,
-            `NSWSO`,
-            `SO`
-          ],
-          time: 361,
-          link: 'Hmod32SwX6w',
-          desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-          source: `Bramz`
-        },
-        {
-          name: `B5 Cloud Setup`,
-          id: 2,
-          categories: [
-            `11 (Cloud)`,
-            `11NC (Cloud)`
-          ],
-          time: 356,
-          link:'ZhB4VpPE1SU',
-          desc: `You need to despawn the Koopa in a pixel-perfect location. If you are struggling with this, consider the easy setup.`,
-          source: `IsoFrieze`
-        },
-        {
-          name: `Easy Cloud Setup`,
-          id: 3,
-          categories: [
-            `11 (Cloud)`,
-            `11NC (Cloud)`
-          ],
-          time: 354,
-          link: 'hk8rVl6ldwY',
-          desc: `This loses a couple seconds, but is extremely consistent.`,
-          source: `LostC0re`
-        },
-        {
-          name: `Get Yoshi, Midway`,
-          id: 4,
-          categories: [
-            `11 (Orb)`,
-            `11NC (Orb)`
-          ],
-          time: 358,
-          link: '3LtxEmleBXY',
-          desc: `This strat is only used for the Orb variant of 11 Exit and some category extensions.`,
-          source: `Sten`
-        },
-        {
-          name: `Dragon Coins`,
-          id: 5,
-          categories: [`LD`],
-          time: 358,
-          link: 'UvKYSsJGmN4',
-          desc: `Using Yoshi for a boost up to the fourth coin is faster than using the vine.`,
-          source: `Umari0`
-        }
-      ],
-      secret: null
-    }
+    moon: false,
+    normal: [
+      {
+        name: 'All Categories',
+        difficulty: 'Beginner',
+        id: 0,
+        time: 361,
+        link: 'Hmod32SwX6w',
+        desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
+        source: `Bramz`
+      },
+      {
+        name: '11 Exit (Cloud) - Easy Setup',
+        difficulty: 'Beginner',
+        id: 1,
+        time: 354,
+        link: 'hk8rVl6ldwY',
+        desc: `Consider this strat if you are struggling with the B5 setup.`,
+        source: `LostC0re`
+      },
+      {
+        name: '11 Exit (Cloud) - B5 Setup',
+        difficulty: 'Intermediate',
+        id: 2,
+        time: 356,
+        link: 'ZhB4VpPE1SU',
+        desc: `You need to despawn the Koopa in a pixel-perfect location. If you are struggling with this, consider the easy setup.`,
+        source: `IsoFrieze`
+      },
+      {
+        name: '11 Exit (Orb)',
+        difficulty: 'Beginner',
+        id: 3,
+        time: 358,
+        link: 'xG0FNEOpYzU',
+        desc: `Use this strat if you need to get Orb. This is useful in 11 Exit (Orb) and many extra categories.`,
+        source: `Sten`
+      },
+      {
+        name: 'Lunar Dragon',
+        difficulty: 'Beginner',
+        id: 4,
+        time: 359,
+        link: '',
+        desc: ``,
+        source: ``
+      }
+    ],
   },
   { // YI3
     name: `Yoshi's Island 3`,
     id: '103',
     world: 1,
-    powerups: ['Fire', 'Yoshi'],
+    powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [
-        {
-          name: 'Small Only',
-          id: 1,
-          categories: [
-            `96`,
-            `AC`,
-            `NSW`,
-            `11 (Glitchless)`,
-            `95NC`,
-            `ACNC`,
-            `NCNSW`,
-            `11NC (Glitchless)`,
-            `ACSO`,
-            `NSWSO`,
-            `SO`
-          ],
-          time: 259,
-          link: 'gE34tasCAhE',
-          desc: `Running on the brown platforms makes the difference between 258 and 259, as Mario is pushed forward.`,
-          source: `Bramz`
-        },
-        {
-          name: 'Dragon Coins',
-          id: 2,
-          categories: ['LD'],
-          time: 256,
-          link: '_eJgZYKl2iI',
-          desc: ``,
-          source: `Umari0`
-        }
-      ],
-      secret: null
-    }
+    moon: false,
+    normal: [],
   },
   { // YI4
     name: `Yoshi's Island 4`,
     id: '102',
     world: 1,
-    powerups: ['Fire'],
+    powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [
-        {
-          name: 'No Shell Jump',
-          id: 1,
-          categories: [
-            `96`,
-            `AC`,
-            `NSW`,
-            `11 (Glitchless)`,
-            `95NC`,
-            `ACNC`,
-            `NCNSW`,
-            `11NC (Glitchless)`,
-            `ACSO`,
-            `NSWSO`,
-            `SO`
-          ],
-          time: 275,
-          link: 'SEDKMBsngJs',
-          desc: `If you deliberately omit the shell jump, it is fastest to crush it with a spin jump.`,
-          source: `Sten`
-        },
-        {
-          name: 'Shell Jump',
-          id: 2,
-          categories: [
-            `96`,
-            `AC`,
-            `NSW`,
-            `11 (Glitchless)`,
-            `95NC`,
-            `ACNC`,
-            `NCNSW`,
-            `11NC (Glitchless)`,
-            `ACSO`,
-            `NSWSO`,
-            `SO`
-          ],
-          time: 276,
-          link: 'ufG_YvZxoUA',
-          desc: `To do the shell jump, quickly tap left then release and regrab Y/X. If timed correctly, Mario will bounce off of the shell and avoid the water. This saves about 0.2 seconds.`,
-          source: `rezephos`
-        },
-        {
-          name: 'Dragon Coins',
-          id: 3,
-          categories: ['LD'],
-          time: 274,
-          link: 'ORg9ufySB-0',
-          desc: ``,
-          source: `Umari0`
-        }
-      ],
-      secret: null
-    }
+    moon: false,
+    normal: [],
   },
   { // YSP
     name: `Yellow Switch Palace`,
     id: '14',
     world: 1,
-    powerups: ['None'],
+    powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [
-        {
-          name: 'Cape',
-          id: 1,
-          categories: ['96', 'LD'],
-          time: 190,
-          link: 'OWr_0sRuow0',
-          desc: ``,
-          source: `Sten`
-        },
-        {
-          name: 'No Cape',
-          id: 2,
-          categories: ['95NC'],
-          time: 189,
-          link: 'thVT7W4aI2w',
-          desc: ``,
-          source: `Sten`
-        },
-      ],
-      secret: null
-    }
+    moon: false,
+    normal: [],
   },
   { // #1C
     name: `#1 Iggy's Castle`,
     id: '101',
     world: 1,
-    powerups: ['Fire'],
+    powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [
-        {
-          name: 'Get Fire',
-          id: 1,
-          categories: [
-            `96`,
-            `AC`,
-            `NSW`,
-            `11 (Glitchless)`,
-            `95NC`,
-            `ACNC`,
-            `NCNSW`,
-            `11NC (Glitchless)`
-          ],
-          time: 241,
-          link: 'm8uShJQJmL0',
-          desc: `Optimizing the cage section is hard, but getting an 81 door is fairly lenient.`,
-          source: `Bramz`
-        },
-        {
-          name: 'Underball',
-          id: 2,
-          categories: [
-            `96`,
-            `AC`,
-            `NSW`,
-            `11 (Cloud)`,
-            `11 (Glitchless)`,
-            `95NC`,
-            `ACNC`,
-            `NCNSW`,
-            `11NC (Cloud)`,
-            `11NC (Glitchless)`,
-            `ACSO`,
-            `NSWSO`,
-            `SO`
-          ],
-          time: 242,
-          link: 'OFLihKpYd_0',
-          desc: `This strat is a bit more advanced with not much time save. It is not recommended for beginners.`,
-          source: `rezephos`
-        },
-        {
-          name: 'P-Switch Jump',
-          id: 3,
-          categories: [
-            `96`,
-            `AC`,
-            `NSW`,
-            `11 (Cloud)`,
-            `11 (Glitchless)`,
-            `95NC`,
-            `ACNC`,
-            `NCNSW`,
-            `11NC (Cloud)`,
-            `11NC (Glitchless)`,
-            `ACSO`,
-            `NSWSO`,
-            `SO`
-          ],
-          time: 242,
-          link: 'JQTpVqcTUAw',
-          desc: `P-Switch jumps are frame perfect. There is also no good visual cue, so this is not recommended for RTA.`,
-          source: `Lambby`
-        },
-        
-      ],
-      secret: null
-    }
+    moon: false,
+    normal: [],
   },
   { // DP1
     name: `Donut Plains 1`,
@@ -348,10 +105,8 @@ export default [
     world: 2,
     powerups: ['Mushroom', 'Cape', 'Yoshi'],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // DP2
     name: `Donut Plains 2`,
@@ -359,10 +114,8 @@ export default [
     world: 2,
     powerups: ['Mushroom', 'Cape'],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // DP3
     name: `Donut Plains 3`,
@@ -370,10 +123,7 @@ export default [
     world: 2,
     powerups: ['Cape'],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // DP4
     name: `Donut Plains 4`,
@@ -382,10 +132,7 @@ export default [
     powerups: ['Mushroom', 'Fire', 'Cape', 'Yoshi'],
     dragoncoins: true,
     moon: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // GSP
     name: `Green Switch Palace`,
@@ -393,10 +140,7 @@ export default [
     world: 2,
     powerups: ['None'],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // DGH
     name: `Donut Ghost House`,
@@ -404,10 +148,8 @@ export default [
     world: 2,
     powerups: ['None'],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // DS1
     name: `Donut Secret 1`,
@@ -415,10 +157,8 @@ export default [
     world: 2,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // DS2
     name: `Donut Secret 2`,
@@ -426,10 +166,7 @@ export default [
     world: 2,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // DSH
     name: `Donut Secret House`,
@@ -437,10 +174,8 @@ export default [
     world: 2,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // #2C
     name: `#2 Morton's Castle`,
@@ -448,10 +183,7 @@ export default [
     world: 2,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VD1
     name: `Vanilla Dome 1`,
@@ -459,10 +191,8 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // VD2
     name: `Vanilla Dome 2`,
@@ -470,10 +200,8 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // VD3
     name: `Vanilla Dome 3`,
@@ -482,10 +210,7 @@ export default [
     powerups: [],
     dragoncoins: true,
     moon: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VD4
     name: `Vanilla Dome 4`,
@@ -493,10 +218,7 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // RSP
     name: `Red Switch Palace`,
@@ -504,10 +226,7 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VGH
     name: `Vanilla Ghost House`,
@@ -515,10 +234,7 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VS1
     name: `Vanilla Secret 1`,
@@ -526,10 +242,8 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // VS2
     name: `Vanilla Secret 2`,
@@ -537,10 +251,7 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VS3
     name: `Vanilla Secret 3`,
@@ -548,10 +259,7 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VF
     name: `Vanilla Fortress`,
@@ -559,10 +267,7 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // #3C
     name: `#3 Lemmy's Castle`,
@@ -570,10 +275,7 @@ export default [
     world: 3,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // BB1
     name: `Butter Bridge 1`,
@@ -581,10 +283,7 @@ export default [
     world: 4,
     powerups: ['Cape'],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // BB2
     name: `Butter Bridge 2`,
@@ -592,10 +291,7 @@ export default [
     world: 4,
     powerups: ['Cape', 'Yoshi'],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // CBA
     name: `Cheese Bridge Area`,
@@ -604,10 +300,8 @@ export default [
     powerups: ['Cape'],
     dragoncoins: true,
     moon: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // CM
     name: `Cookie Mountain`,
@@ -615,10 +309,7 @@ export default [
     world: 4,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // SL
     name: `Soda Lake`,
@@ -626,10 +317,7 @@ export default [
     world: 4,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // #4C
     name: `#4 Ludwig's Castle`,
@@ -637,10 +325,7 @@ export default [
     world: 4,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // FOI1
     name: `Forest of Illusion 1`,
@@ -648,10 +333,8 @@ export default [
     world: 5,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // FOI2
     name: `Forest of Illusion 2`,
@@ -659,10 +342,8 @@ export default [
     world: 5,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // FOI3
     name: `Forest of Illusion 3`,
@@ -670,10 +351,8 @@ export default [
     world: 5,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // FOI4
     name: `Forest of Illusion 4`,
@@ -681,10 +360,8 @@ export default [
     world: 5,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // BSP
     name: `Blue Switch Palace`,
@@ -692,10 +369,7 @@ export default [
     world: 5,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // FGH
     name: `Forest Ghost House`,
@@ -704,10 +378,8 @@ export default [
     powerups: [],
     dragoncoins: true,
     moon: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // FSA
     name: `Forest Secret Area`,
@@ -715,10 +387,7 @@ export default [
     world: 5,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // FF
     name: `Forest Fortress`,
@@ -726,10 +395,7 @@ export default [
     world: 5,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // #5C
     name: `#5 Roy's Castle`,
@@ -737,10 +403,7 @@ export default [
     world: 5,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // CI1
     name: `Chocolate Island 1`,
@@ -749,10 +412,7 @@ export default [
     powerups: [],
     dragoncoins: true,
     moon: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // CI2
     name: `Chocolate Island 2`,
@@ -760,10 +420,8 @@ export default [
     world: 6,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // CI3
     name: `Chocolate Island 3`,
@@ -771,10 +429,8 @@ export default [
     world: 6,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // CI4
     name: `Chocolate Island 4`,
@@ -782,10 +438,7 @@ export default [
     world: 6,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // CI5
     name: `Chocolate Island 5`,
@@ -793,10 +446,7 @@ export default [
     world: 6,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // CGH
     name: `Choco-Ghost House`,
@@ -804,10 +454,7 @@ export default [
     world: 6,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // CS
     name: `Chocolate Secret`,
@@ -815,10 +462,7 @@ export default [
     world: 6,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // CF
     name: `Chocolate Fortress`,
@@ -826,10 +470,7 @@ export default [
     world: 6,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // #6C
     name: `#6 Wendy's Castle`,
@@ -837,10 +478,7 @@ export default [
     world: 6,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // SGS
     name: `Sunken Ghost Ship`,
@@ -848,10 +486,7 @@ export default [
     world: 7,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VOB1
     name: `Valley of Bowser 1`,
@@ -860,10 +495,7 @@ export default [
     powerups: [],
     dragoncoins: true,
     moon: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VOB2
     name: `Valley of Bowser 2`,
@@ -871,10 +503,8 @@ export default [
     world: 7,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // VOB3
     name: `Valley of Bowser 3`,
@@ -882,10 +512,7 @@ export default [
     world: 7,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // VOB4
     name: `Valley of Bowser 4`,
@@ -893,10 +520,8 @@ export default [
     world: 7,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // VGH
     name: `Valley Ghost House`,
@@ -904,10 +529,8 @@ export default [
     world: 7,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // VF
     name: `Valley Fortress`,
@@ -915,10 +538,7 @@ export default [
     world: 7,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // #7C
     name: `#7 Larry's Castle`,
@@ -926,10 +546,7 @@ export default [
     world: 7,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // BC
     name: `Bowser's Castle`,
@@ -937,10 +554,7 @@ export default [
     world: 7,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // SW1
     name: `Star World 1`,
@@ -948,10 +562,8 @@ export default [
     world: 8,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // SW2
     name: `Star World 2`,
@@ -959,10 +571,8 @@ export default [
     world: 8,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // SW3
     name: `Star World 3`,
@@ -970,10 +580,8 @@ export default [
     world: 8,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // SW4
     name: `Star World 4`,
@@ -981,10 +589,8 @@ export default [
     world: 8,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // SW5
     name: `Star World 5`,
@@ -992,10 +598,8 @@ export default [
     world: 8,
     powerups: [],
     dragoncoins: false,
-    strats: {
-      normal: [],
-      secret: []
-    }
+    normal: [],
+    secret: []
   },
   { // Gnarly
     name: `Gnarly`,
@@ -1003,10 +607,7 @@ export default [
     world: 9,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // Tubular
     name: `Tubular`,
@@ -1014,10 +615,7 @@ export default [
     world: 9,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // Way Cool
     name: `Way Cool`,
@@ -1025,10 +623,7 @@ export default [
     world: 9,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // Awesome
     name: `Awesome`,
@@ -1036,10 +631,7 @@ export default [
     world: 9,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // Groovy
     name: `Groovy`,
@@ -1047,10 +639,7 @@ export default [
     world: 9,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // Mondo
     name: `Mondo`,
@@ -1058,10 +647,7 @@ export default [
     world: 9,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // Outrageous
     name: `Outrageous`,
@@ -1069,10 +655,7 @@ export default [
     world: 9,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
   { // Funky
     name: `Funky`,
@@ -1080,9 +663,6 @@ export default [
     world: 9,
     powerups: [],
     dragoncoins: true,
-    strats: {
-      normal: [],
-      secret: null
-    }
+    normal: [],
   },
 ]

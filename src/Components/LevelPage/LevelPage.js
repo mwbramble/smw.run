@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import LEVELS from '../../Data/leveldatanew';
+import LEVELS from '../../Data/leveldata';
 import './levelpage.css';
 
 export default class LevelPageNew extends Component{
