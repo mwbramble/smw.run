@@ -1,4 +1,4 @@
-export default [
+const CATEGORIES = [
   { // 96
     id: "96_exit",
     type: "cape",
@@ -801,3 +801,5 @@ export default [
     top15: "/category/7dg8zpg2?top=15"
   }
 ];
+
+export default CATEGORIES;

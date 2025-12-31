@@ -41,7 +41,6 @@ export default class LevelPageNew extends Component{
             return(
               <div className='strat-container' onClick={(e) => this.toggle(this.state.l.normal[s.id])}>
                 <h3 id='strat-name'>{s.name} - {s.time}</h3>
-                <strong>Difficulty: {s.difficulty}</strong>
                 <div className='coll-content' id={`hidden` + s.id}>
                   <iframe title={s.name} width='570' height='320' src={'https://youtube.com/embed/' + s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
                   {s.desc ? s.desc : ''}

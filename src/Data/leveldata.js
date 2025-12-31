@@ -1,4 +1,4 @@
-export default [
+const LEVELS = [
   { // YI1
     name: `Yoshi's Island 1`,
     id: '105',
@@ -6,7 +6,40 @@ export default [
     powerups: ['Mushroom', 'Yoshi'],
     dragoncoins: true,
     moon: true,
-    normal: [],
+    normal: [
+      {
+        name: '96 Exit',
+        id: 0,
+        time: 263,
+        link: 'ggbJON0imHI',
+        desc: `You can spin the koopa at the start of the level, but this is risky due to the cape framerule. Jumping over it only loses 1 in-game second.`,
+        source: `Sten`
+      },
+      {
+        name: '11 Exit (Orb)',
+        id: 1,
+        time: 249,
+        link: 'i6nbwgtzm-A',
+        desc: `It is faster to run back and die in the pit than it is to complete the level and walk on the overworld.`,
+        source: `Sten`
+      },
+      {
+        name: '95 Exit, No Cape',
+        id: 2,
+        time: 260,
+        link: 'p33u8WQlnYM',
+        desc: ``,
+        source: `Sten`
+      },
+      {
+        name: 'Lunar Dragon',
+        id: 3,
+        time: 259,
+        link: '',
+        desc: ``,
+        source: ``
+      },
+    ],
   },
   { // YI2
     name: `Yoshi's Island 2`,
@@ -18,7 +51,6 @@ export default [
     normal: [
       {
         name: 'All Categories',
-        difficulty: 'Beginner',
         id: 0,
         time: 361,
         link: 'Hmod32SwX6w',
@@ -27,7 +59,6 @@ export default [
       },
       {
         name: '11 Exit (Cloud) - Easy Setup',
-        difficulty: 'Beginner',
         id: 1,
         time: 354,
         link: 'hk8rVl6ldwY',
@@ -36,7 +67,6 @@ export default [
       },
       {
         name: '11 Exit (Cloud) - B5 Setup',
-        difficulty: 'Intermediate',
         id: 2,
         time: 356,
         link: 'ZhB4VpPE1SU',
@@ -45,7 +75,6 @@ export default [
       },
       {
         name: '11 Exit (Orb)',
-        difficulty: 'Beginner',
         id: 3,
         time: 358,
         link: 'xG0FNEOpYzU',
@@ -54,7 +83,6 @@ export default [
       },
       {
         name: 'Lunar Dragon',
-        difficulty: 'Beginner',
         id: 4,
         time: 359,
         link: '',
@@ -665,4 +693,6 @@ export default [
     dragoncoins: true,
     normal: [],
   },
-]
+];
+
+export default LEVELS;
