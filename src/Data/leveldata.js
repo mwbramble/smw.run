@@ -12,7 +12,7 @@ const LEVELS = [
         id: 0,
         time: 263,
         link: 'ggbJON0imHI',
-        desc: `You can spin the koopa at the start of the level, but this is risky due to the cape framerule. Jumping over it only loses 1 in-game second.`,
+        desc: `You can spin the Koopa at the start of the level, but this is risky due to the cape framerule. Jumping over it only loses 1 in-game second.`,
         source: `Sten`
       },
       {
@@ -35,9 +35,9 @@ const LEVELS = [
         name: 'Lunar Dragon',
         id: 3,
         time: 259,
-        link: '',
-        desc: ``,
-        source: ``
+        link: 'hZznveNmmtc',
+        desc: `Spinning the Koopa at the start of the level is risky, but will save time because you can get p-speed earlier.`,
+        source: `Umari0`
       },
     ],
   },
@@ -47,7 +47,6 @@ const LEVELS = [
     world: 1,
     powerups: ['Mushroom', 'Yoshi'],
     dragoncoins: true,
-    moon: false,
     normal: [
       {
         name: 'All Categories',
@@ -55,7 +54,7 @@ const LEVELS = [
         time: 361,
         link: 'Hmod32SwX6w',
         desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-        source: `Bramz`
+        source: `Bramz`,
       },
       {
         name: '11 Exit (Cloud) - Easy Setup',
@@ -63,7 +62,7 @@ const LEVELS = [
         time: 354,
         link: 'hk8rVl6ldwY',
         desc: `Consider this strat if you are struggling with the B5 setup.`,
-        source: `LostC0re`
+        source: `LostC0re`,
       },
       {
         name: '11 Exit (Cloud) - B5 Setup',
@@ -71,7 +70,7 @@ const LEVELS = [
         time: 356,
         link: 'ZhB4VpPE1SU',
         desc: `You need to despawn the Koopa in a pixel-perfect location. If you are struggling with this, consider the easy setup.`,
-        source: `IsoFrieze`
+        source: `IsoFrieze`,
       },
       {
         name: '11 Exit (Orb)',
@@ -84,10 +83,10 @@ const LEVELS = [
       {
         name: 'Lunar Dragon',
         id: 4,
-        time: 359,
-        link: '',
+        time: 358,
+        link: 'uxtnrmn8pUg',
         desc: ``,
-        source: ``
+        source: `Bramz`,
       }
     ],
   },
@@ -95,19 +94,51 @@ const LEVELS = [
     name: `Yoshi's Island 3`,
     id: '103',
     world: 1,
-    powerups: [],
+    powerups: ['Fire, Yoshi'],
     dragoncoins: true,
-    moon: false,
-    normal: [],
+    normal: [
+      {
+        name: 'All Categories',
+        id: 0,
+        time: 259,
+        link: 'gE34tasCAhE',
+        desc: `Be sure to run on the brown rotating platforms for as long as possible, as they boost Mario forward. This makes the difference between 258 and 259.`,
+        source: `Bramz`
+      },
+      {
+        name: 'Lunar Dragon',
+        id: 1,
+        time: 256,
+        link: '_eJgZYKl2iI',
+        desc: `Avoiding the midway while getting p-speed is extremely tight, so when you get the midway here you may have to damage boost in Iggy's Castle.`,
+        source: `Umari0`
+      }
+    ],
   },
   { // YI4
     name: `Yoshi's Island 4`,
     id: '102',
     world: 1,
-    powerups: [],
+    powerups: ['Fire'],
     dragoncoins: true,
-    moon: false,
-    normal: [],
+    normal: [
+      {
+        name: 'All Categories',
+        id: 0,
+        time: 276,
+        link: 'SEDKMBsngJs',
+        desc: `You can perform a shell jump over the large gap in the middle of the stage, but it only saves 0.2 seconds and is quite difficult. The fastest strat without shell jumping is to crush the shell before the jump.`,
+        source: `Sten`
+      },
+      {
+        name: 'Lunar Dragon',
+        id: 1,
+        time: 274,
+        link: 'ORg9ufySB-0',
+        desc: ``,
+        source: `Umari0`
+      }
+    ],
   },
   { // YSP
     name: `Yellow Switch Palace`,
@@ -115,16 +146,31 @@ const LEVELS = [
     world: 1,
     powerups: [],
     dragoncoins: false,
-    moon: false,
-    normal: [],
+    normal: [
+      {
+        name: '96 Exit',
+        id: 0,
+        time: 190,
+        link: 'OWr_0sRuow0',
+        desc: ``,
+        source: `Sten`
+      },
+      {
+        name: '95 Exit, No Cape',
+        id: 1,
+        time: 189,
+        link: 'thVT7W4aI2w',
+        desc: ``,
+        source: `Sten`
+      }
+    ],
   },
   { // #1C
     name: `#1 Iggy's Castle`,
     id: '101',
     world: 1,
-    powerups: [],
+    powerups: ['Fire'],
     dragoncoins: false,
-    moon: false,
     normal: [],
   },
   { // DP1

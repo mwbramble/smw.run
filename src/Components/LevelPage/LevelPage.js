@@ -44,6 +44,7 @@ export default class LevelPageNew extends Component{
                 <div className='coll-content' id={`hidden` + s.id}>
                   <iframe title={s.name} width='570' height='320' src={'https://youtube.com/embed/' + s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
                   {s.desc ? s.desc : ''}
+                  <p>Source: {s.source}</p>
                 </div>
               </div>
             )
