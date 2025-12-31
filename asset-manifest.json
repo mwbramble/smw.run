@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.be9695ba.css",
-    "main.js": "/static/js/main.77a8cf7a.js",
+    "main.css": "/static/css/main.96e710bc.css",
+    "main.js": "/static/js/main.97252e09.js",
     "static/media/smwseal.png": "/static/media/smwseal.c0996a86516fc46e612e.png",
+    "static/media/wiki_banner.png": "/static/media/wiki_banner.01f655946ec1f1734631.png",
     "static/media/lmsans10-regular.otf": "/static/media/lmsans10-regular.799653c14276070e4bef.otf",
     "static/media/21.png": "/static/media/21.ceb7db03c7096b2091cb.png",
     "static/media/8.png": "/static/media/8.06b0783ff2277e1d96bb.png",
@@ -12,11 +13,11 @@
     "static/media/18.png": "/static/media/18.b89885970747e7efb2e2.png",
     "static/media/109.png": "/static/media/109.8bb99a8c7723aa9d689c.png",
     "index.html": "/index.html",
-    "main.be9695ba.css.map": "/static/css/main.be9695ba.css.map",
-    "main.77a8cf7a.js.map": "/static/js/main.77a8cf7a.js.map"
+    "main.96e710bc.css.map": "/static/css/main.96e710bc.css.map",
+    "main.97252e09.js.map": "/static/js/main.97252e09.js.map"
   },
   "entrypoints": [
-    "static/css/main.be9695ba.css",
-    "static/js/main.77a8cf7a.js"
+    "static/css/main.96e710bc.css",
+    "static/js/main.97252e09.js"
   ]
 }
