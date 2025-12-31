@@ -4,7 +4,7 @@ export default [
     type: "cape",
     title: "96 Exit",
     desc: `There isn't a category named '100%' in SMW, but this is generally accepted to be full completion run of the game. As stated below, this category necessitates the completion of all 96 of the game's intended exits (there are ways to increment the exit count on the title screen by the use of various glitches).`,
-    leaderboard: `96_Exit`,
+    leaderboard: `?h=96_Exit&x=7kjrn323`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -121,7 +121,7 @@ export default [
     type: "cape",
     title: "All Castles",
     desc: `This category serves as an alternative 'warpless' type run to No Starworld. Runners generally agree that this is a more fun route to NSW because this route excludes Butter Bridge 1 and includes more fun levels such as Vanilla Dome 3. In all, there are 33 exits to complete in this run.`,
-    leaderboard: `All_Castles`,
+    leaderboard: `?h=All_Castles&x=02qjj79d`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -175,7 +175,7 @@ export default [
     type: "cape",
     title: "No Starworld",
     desc: `No Starworld was the most popular 'warpless' type run until early 2016. This route takes the fastest path to Bowser without the use of Star World. In all, there are 31 exits to complete in this run.`,
-    leaderboard: `No_Starworld`,
+    leaderboard: `?h=No_Starworld&x=zdn1jxkq`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -227,7 +227,7 @@ export default [
     type: "cape",
     title: "11 Exit",
     desc: `There isn't a category named 'Any%' in SMW, but this was generally accepted to be the equivalent until the discovery of 0 Exit. Since then, category names with percentages have been dropped to avoid confusion and debate. This category takes the shortest overworld path to Bowser, through Star World. There are three variants of this category: Cloud, Orb, and Glitchless. Cloud and Orb are two glitches used to skip parts of the run (Bowser's movements in the final fight and Iggy's Castle, respectively).`,
-    leaderboard: `11_Exit`,
+    leaderboard: `?h=11_Exit-cloud&x=n2y1y72o-yn2wxjn5.z19e7yq4`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -257,7 +257,7 @@ export default [
     type: "other",
     title: "0 Exit",
     desc: `This category skips the completion of any exits, and warps straight to the credits from Yoshi's Island 2 by use of Arbitrary Code Execution (ACE).`,
-    leaderboard: `0_Exit`,
+    leaderboard: `?h=0_Exit&x=wkpjpzjk`,
     route: [
       `Yoshi's Island 2`
     ],
@@ -276,7 +276,7 @@ export default [
     type: "no-cape",
     title: "95 Exit, No Cape",
     desc: `This is the no cape variant of 96 Exit. It is impossible to complete Donut Ghost House secret exit without cape, which is why this category isn't '96 Exit, No Cape'.`,
-    leaderboard: `95_Exit_No_Cape`,
+    leaderboard: `?h=95_Exit_No_Cape&x=ndx31odq`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -392,7 +392,7 @@ export default [
     type: "no-cape",
     title: "All Castles, No Cape",
     desc: `This is the no cape variant of All Castles`,
-    leaderboard: `All_Castles_No_Cape`,
+    leaderboard: `?h=All_Castles_No_Cape&x=5dw75lgk`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -449,7 +449,7 @@ export default [
     type: "no-cape",
     title: "No Cape, No Starworld",
     desc: `This is the no cape variant of No Starworld.`,
-    leaderboard: `No_Cape_No_Starworld`,
+    leaderboard: `?h=No_Cape_No_Starworld&x=q257ngdo`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -503,7 +503,7 @@ export default [
     type: "no-cape",
     title: "11 Exit, No Cape",
     desc: `This is the no cape variant of 11 Exit. Similar to 11 Exit, there are three variants of 11NC: Cloud, Orb, and Glitchless.`,
-    leaderboard: `11_Exit_No_Cape`,
+    leaderboard: `?h=11_Exit_No_Cape-cloud&x=mkeyen26-wl3z46n1.81495rjq`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -535,7 +535,7 @@ export default [
     type: "small-only",
     title: "All Castles, Small Only",
     desc: `This is the small only variant of All Castles.`,
-    leaderboard: `All_Castles_Small_Only`,
+    leaderboard: `?h=All_Castles_Small_Only&x=wk6v75ed`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -593,7 +593,7 @@ export default [
     type: "small-only",
     title: "No Starworld, Small Only",
     desc: `This is the small only variant of No Starworld.`,
-    leaderboard: `No_Starworld_Small_Only`,
+    leaderboard: `?h=No_Starworld_Small_Only&x=n2y750e2`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -648,7 +648,7 @@ export default [
     type: "small-only",
     title: "Small Only",
     desc: `This is the small only variant of 11 Exit, however a different path must be taken on the overworld since it is impossible to complete Star World 1 without a Super Mushroom. In all, there are 14 exits to complete in this category.`,
-    leaderboard: `Small_Only`,
+    leaderboard: `?h=Small_Only&x=n2y301do`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,
@@ -687,7 +687,7 @@ export default [
     type: "cape",
     title: "Lunar Dragon",
     desc: `This is a variant of 96 Exit that also requires the collection of Dragon Coins and Moons. It is generally done glitchless, although there is a glitched variant. This category has been argued to be the 'true 100%' of SMW, but no such label has been put on the category.`,
-    leaderboard: `Lunar_Dragon`,
+    leaderboard: `?h=Lunar_Dragon-Glitchless&x=7dg8zpg2-j84kdwwn.013vw3yl`,
     route: [
       `Yoshi's Island 2`,
       `Yoshi's Island 3`,

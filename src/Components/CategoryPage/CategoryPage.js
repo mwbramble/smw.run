@@ -73,7 +73,7 @@ export default class CategoryPageNew extends Component {
                             <span>WR is {wrTime} by {wrRunner}</span>
                             <br />
                             <small>
-                                <a href={`https://speedrun.com/smw#${cat.leaderboard}`}>Full Leaderboard</a>
+                                <a href={`https://speedrun.com/smw${cat.leaderboard}`}>Full Leaderboard</a>
                             </small>
                         </div>
                     ) : (
