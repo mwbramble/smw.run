@@ -120,6 +120,8 @@ input:checked + .slider:before {
 #title{
   color: var(--nav-text);
   margin: 10px auto 15px;
+
+  text-shadow: none;
 }
 
 @keyframes rotate{
