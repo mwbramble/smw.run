@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import LEVELS from '../../Data/leveldata';
 import './levelpage.css';
 
-export default class LevelPageNew extends Component{
+export default class LevelPage extends Component{
   constructor(props){
     super(props);
     this.state = {

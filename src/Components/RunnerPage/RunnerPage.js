@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import RUNNERS from '../../../Data/runnerdata';
+import RUNNERS from '../../Data/runnerdata';
 import './runnerpage.css';
 
 export default class RunnerPage extends Component {

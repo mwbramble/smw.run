@@ -9,6 +9,8 @@ import Glossary from '../Glossary/Glossary';
 import Levels from '../Levels/Levels';
 import LevelPage from '../LevelPage/LevelPage';
 import Resources from '../Resources/Resources';
+import Runners from '../Runners/Runners';
+import RunnerPage from '../RunnerPage/RunnerPage';
 import Tutorials from '../Tutorials/Tutorials';
 import NotFound from '../NotFound/NotFound';
 import Footer from '../Footer/Footer';
@@ -52,6 +54,14 @@ export default class App extends Component{
             <Route
               exact path='/resources'
               component={Resources}
+            />
+            <Route
+              exact path='/runners'
+              component={Runners}
+            />
+            <Route
+              exact path='/runners/:id'
+              component={RunnerPage}
             />
             <Route
               exact path='/tutorials'

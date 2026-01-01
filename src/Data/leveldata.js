@@ -171,7 +171,24 @@ const LEVELS = [
     world: 1,
     powerups: ['Fire'],
     dragoncoins: false,
-    normal: [],
+    normal: [
+      {
+        name: 'All Categories',
+        id: 0,
+        time: 242,
+        link: 'm8uShJQJmL0',
+        desc: `Getting a 282 in the first room is possible, but requires superb execution.`,
+        source: `Bramz`
+      },
+      {
+        name: 'Lunar Dragon',
+        id: 1,
+        time: 242,
+        link: '1gjveh1zgps',
+        desc: `While it's possible to intentionally take damage and be small for the fence section, staying big skips the 47 frames long shrinking transition. Briefly release Y when bouncing off of the net koopa to avoid bonking on the wall. `,
+        source: `Lui`
+      },
+    ],
   },
   { // DP1
     name: `Donut Plains 1`,
@@ -179,7 +196,40 @@ const LEVELS = [
     world: 2,
     powerups: ['Mushroom', 'Cape', 'Yoshi'],
     dragoncoins: true,
-    normal: [],
+    normal: [
+      {
+        name: '96 Exit',
+        id: 0,
+        time: 363,
+        link: 'srItRfLpFnY',
+        desc: ``,
+        source: `Sten`
+      },
+      {
+        name: '',
+        id: 1,
+        time: 0,
+        link: '',
+        desc: ``,
+        source: ``
+      },
+      {
+        name: '',
+        id: 2,
+        time: 0,
+        link: '',
+        desc: ``,
+        source: ``
+      },
+      {
+        name: '',
+        id: 3,
+        time: 0,
+        link: '',
+        desc: ``,
+        source: ``
+      },
+    ],
     secret: []
   },
   { // DP2
@@ -742,3 +792,14 @@ const LEVELS = [
 ];
 
 export default LEVELS;
+
+/*
+{
+  name: '',
+  id: 0,
+  time: 0,
+  link: '',
+  desc: ``,
+  source: ``
+},
+*/

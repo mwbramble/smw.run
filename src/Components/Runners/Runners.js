@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import RUNNERS from '../../../Data/runnerdata';
+import RUNNERS from '../../Data/runnerdata';
 import './runners.css';
 
 export default class Runners extends Component {

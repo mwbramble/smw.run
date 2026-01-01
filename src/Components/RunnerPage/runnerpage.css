@@ -1,3 +1,7 @@
+.runnerpage-container{
+  float: left;
+}
+
 #runner-flag{
   height: 16px;
   border-radius: 5px;
