@@ -53,6 +53,19 @@ export default class LevelPage extends Component{
         </div>
         <div className='level-container'>
           {this.state.l.secret ? <h2 id='exit-type'>Secret Exit</h2> : ''}
+          {this.state.l.secret ? this.state.l.secret.map(s => {
+            return(
+              <div className='strat-container' onClick={(e) => this.toggle(this.state.l.secret[s.id])}>
+                <h3 id='strat-name'>{s.name} - {s.time}</h3>
+                <div className='coll-content' id={`hidden` + s.id}>
+                  <iframe title={s.name} width='570' height='320' src={'https://youtube.com/embed/' + s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                  {s.desc ? s.desc : ''}
+                  <p>Source: {s.source}</p>
+                </div>
+              </div>
+            )
+            }
+          ) : ''}
         </div>
       </section>
     )

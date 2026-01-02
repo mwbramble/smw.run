@@ -206,23 +206,23 @@ const LEVELS = [
         source: `Sten`
       },
       {
-        name: '',
+        name: '95 Exit, No Cape',
         id: 1,
-        time: 0,
-        link: '',
+        time: 358,
+        link: 'q38K3J8GCDo',
         desc: ``,
-        source: ``
+        source: `Sten`
       },
       {
-        name: '',
+        name: 'Small Only',
         id: 2,
-        time: 0,
-        link: '',
+        time: 360,
+        link: 'qNLUQ6B9qjw',
         desc: ``,
         source: ``
       },
       {
-        name: '',
+        name: 'Lunar Dragon',
         id: 3,
         time: 0,
         link: '',
@@ -230,7 +230,32 @@ const LEVELS = [
         source: ``
       },
     ],
-    secret: []
+    secret: [
+      {
+        name: 'Cape Categories',
+        id: 0,
+        time: 0,
+        link: '',
+        desc: ``,
+        source: ``
+      },
+      {
+        name: 'No Cape Categories',
+        id: 0,
+        time: 0,
+        link: '',
+        desc: ``,
+        source: ``
+      },
+      {
+        name: 'Small Only',
+        id: 0,
+        time: 0,
+        link: '',
+        desc: ``,
+        source: ``
+      },
+    ]
   },
   { // DP2
     name: `Donut Plains 2`,
