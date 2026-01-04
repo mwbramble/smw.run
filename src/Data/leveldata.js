@@ -241,15 +241,15 @@ const LEVELS = [
       },
       {
         name: 'No Cape Categories',
-        id: 0,
-        time: 0,
-        link: '',
+        id: 1,
+        time: 360,
+        link: '8BcoB2klOis',
         desc: ``,
-        source: ``
+        source: `LostC0re`
       },
       {
         name: 'Small Only',
-        id: 0,
+        id: 2,
         time: 0,
         link: '',
         desc: ``,

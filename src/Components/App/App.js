@@ -8,6 +8,7 @@ import Contact from '../Contact/Contact';
 import Glossary from '../Glossary/Glossary';
 import Levels from '../Levels/Levels';
 import LevelPage from '../LevelPage/LevelPage';
+import LevelPageTemp from '../LevelPage/LevelPageTemp';
 import Resources from '../Resources/Resources';
 import Runners from '../Runners/Runners';
 import RunnerPage from '../RunnerPage/RunnerPage';
@@ -50,6 +51,10 @@ export default class App extends Component{
             <Route
               exact path='/levels/:id'
               component={LevelPage}
+            />
+            <Route
+              exact path='/levelstemp/:id'
+              component={LevelPageTemp}
             />
             <Route
               exact path='/resources'
