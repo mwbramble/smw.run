@@ -92,6 +92,11 @@ export default class CategoryPageNew extends Component {
                 <ul id='penalties-list'>
                     {cat.penalties.map(penalty => <li key={penalty}>{penalty}</li>)}
                 </ul>
+                <hr />
+                <h3 id='route'>Route</h3>
+                <ul id='route-list'>
+                    {cat.route.map(level => <li key={level}>{level}</li>)}
+                </ul>
             </section>
         );
     }
