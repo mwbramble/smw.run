@@ -49,7 +49,7 @@ export default class LevelPageTemp extends Component{
             )
           })}
           {this.state.l.secret ? <h2 id='exit-type'>Secret Exit</h2> : ''}
-          {this.state.l.secret.map(s => {
+          {this.state.l.secret ? this.state.l.secret.map(s => {
             return(
               <div className='strat-container' onClick={(e) => this.toggle(this.state.l.secret[s.id], true)}>
                 <h3 id='strat-name'>{s.name} - {s.time}</h3>
@@ -59,7 +59,7 @@ export default class LevelPageTemp extends Component{
                 </div>
               </div>
             )
-          })}
+          }) : ''}
         </div>
       </section>
     )
