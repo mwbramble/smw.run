@@ -54,7 +54,7 @@ export default class Glossary extends Component {
           <li><b>Sandbar clip</b> refers to the clip you can do in Valley of Bowser 2 secret to save 12 seconds.</li>
           <li><b>Sexy slide</b> refers to a strat to get to the key in Valley Ghost House.</li>
           <li><b>Underball</b> refers to jumping under the Podoboo in Iggy's Castle.</li>
-          <li><b>Yolo Fly</b> is the process of skipping the second skull raft by not doing a turnback.</li>
+          <li><b>Yolo Fly</b> is the process of skipping the second skull raft in VD3 by not doing a turnback.</li>
         </ul>
       </section>
     )
