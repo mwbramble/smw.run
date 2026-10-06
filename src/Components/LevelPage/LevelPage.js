@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import LEVELS from '../../Data/leveldata';
 import './levelpage.css';
 
-export default class LevelPageTemp extends Component{
+export default class LevelPage extends Component{
   constructor(props){
     super(props);
     this.state = {
@@ -42,7 +42,9 @@ export default class LevelPageTemp extends Component{
               <div className='strat-container' onClick={(e) => this.toggle(this.state.l.normal[n.id], false)}>
                 <h3 id='strat-name'>{n.name} - {n.time}</h3>
                 <div className='coll-content' id={`hidden` + n.id}>
-                  {n.desc ? n.desc : ''}
+                  <iframe title={`YouTube embed of the ${n.name} strat for ${this.state.l.name}`} src={`https://youtube.com/embed/${n.link}`} />
+                  <br />
+                  <p>{n.desc ? n.desc : ''}</p>
                   <p>Source: {n.source}</p>
                 </div>
               </div>
@@ -54,7 +56,9 @@ export default class LevelPageTemp extends Component{
               <div className='strat-container' onClick={(e) => this.toggle(this.state.l.secret[s.id], true)}>
                 <h3 id='strat-name'>{s.name} - {s.time}</h3>
                 <div className='coll-content' id={`secret-hidden` + s.id}>
-                  {s.desc ? s.desc : ''}
+                  <iframe title={`YouTube embed of the ${s.name} strat for ${this.state.l.name}`} src={`https://youtube.com/embed/${s.link}`} />
+                  <br />
+                  <p>{s.desc ? s.desc : ''}</p>
                   <p>Source: {s.source}</p>
                 </div>
               </div>

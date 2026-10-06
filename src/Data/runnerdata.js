@@ -6,7 +6,6 @@ const RUNNERS = [
     name: 'Bramz',
     lbmod: true,
     discordmod: true,
-    top10: true,
     began: 2014,
     bio: '',
     links: {

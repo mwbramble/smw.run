@@ -7,8 +7,8 @@ export default class RunnerPage extends Component {
     const r = RUNNERS.filter(r => r.id === this.props.match.params.id)[0];
     const twitch = `https://twitch.tv/${r.links.twitch}`;
     const youtube = `https://youtube.com/${r.links.youtube}`;
-    const twitter = `https://twitter.com/${r.links.twitter}`;
-    const srcom = `https://speedrun.com/${r.links.srcom}`;
+    const bsky = `https://bsky.app/profile/${r.links.bsky}`;
+    // const srcom = `https://speedrun.com/${r.links.srcom}`;
     
     return (
       <section className='runnerpage-container'>
@@ -17,9 +17,9 @@ export default class RunnerPage extends Component {
         <ul id='socials'>
           {r.links.twitch ? <li><a href={twitch}>Twitch</a></li> : ''}
           {r.links.youtube ? <li><a href={youtube}>YouTube</a></li> : ''}
-          {r.links.twitter ? <li><a href={twitter}>Twitter</a></li> : ''}
+          {r.links.bsky ? <li><a href={bsky}>Bluesky</a></li> : ''}
           {r.links.discord ? <li>Discord: @{r.links.discord}</li> : ''}
-          {r.links.srcom ? <li><a href={srcom}>speedrun.com</a></li> : ''}
+          {/* {r.links.srcom ? <li><a href={srcom}>speedrun.com</a></li> : ''} */}
         </ul>
         <p id='bio'>{r.bio}</p>
       </section>

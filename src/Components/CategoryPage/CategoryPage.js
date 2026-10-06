@@ -14,61 +14,64 @@ export default class CategoryPageNew extends Component {
         }
     }
 
-    componentDidMount() {
-        fetch(`https://www.speedrun.com/api/v1/leaderboards/pd0wq31e${this.state.category[0].wr}&embed=players`)
-        .then(res => res.json())
-        .then(json => {
-            const data = json.data;
-            console.log(data)
+    // Commented out sections involve using the SRC API.
 
-            let parsedRunner = data.players.data[0].id
-                ? data.players.data[0].names.international
-                : data.players.data[0].name;
+    // componentDidMount() {
+    //     fetch(`https://www.speedrun.com/api/v1/leaderboards/pd0wq31e${this.state.category[0].wr}&embed=players`)
+    //     .then(res => res.json())
+    //     .then(json => {
+    //         const data = json.data;
+    //         console.log(data)
 
-            let parsedWRTime = '';
+    //         let parsedRunner = data.players.data[0].id
+    //             ? data.players.data[0].names.international
+    //             : data.players.data[0].name;
 
-            let h, m, s;
-            let time = data.runs[0].run.times.primary_t;
-            h = Math.floor(time / 3600);
-            time %= 3600;
-            m = Math.floor(time / 60);
-            s = (time % 60).toFixed(3);
+    //         let parsedWRTime = '';
 
-            if(m < 10){
-                m = '0' + m;
-            }
-            if(s < 10){
-                s = '0' + s;
-            }
+    //         let h, m, s;
+    //         let time = data.runs[0].run.times.primary_t;
+    //         h = Math.floor(time / 3600);
+    //         time %= 3600;
+    //         m = Math.floor(time / 60);
+    //         s = (time % 60).toFixed(3);
 
-            if(h === 0){
-                parsedWRTime = m + ':' + s;
-            }
-            else{
-                parsedWRTime = h + ':' + m + ':' + s;
-            }
+    //         if(m < 10){
+    //             m = '0' + m;
+    //         }
+    //         if(s < 10){
+    //             s = '0' + s;
+    //         }
 
-            this.setState({
-                data: data,
-                wrRunner: parsedRunner,
-                wrTime: parsedWRTime,
-                loading: false
-            });
-        })
-        .catch(err => {
-            console.error(err);
-            this.setState({loading: false});
-        });
-    }
+    //         if(h === 0){
+    //             parsedWRTime = m + ':' + s;
+    //         }
+    //         else{
+    //             parsedWRTime = h + ':' + m + ':' + s;
+    //         }
+
+    //         this.setState({
+    //             data: data,
+    //             wrRunner: parsedRunner,
+    //             wrTime: parsedWRTime,
+    //             loading: false
+    //         });
+    //     })
+    //     .catch(err => {
+    //         console.error(err);
+    //         this.setState({loading: false});
+    //     });
+    // }
 
     render(){
-        const {category, data, wrRunner, wrTime, loading} = this.state;
+        // const {category, data, wrRunner, wrTime, loading} = this.state;
+        const {category} = this.state;
         const cat = category[0];
 
         return(
             <section className='main-container'>
                 <h1 id='page-title'>{cat.title}</h1>
-                {loading ? (<span>WR Loading...</span>) : data ? (
+                {/* {loading ? (<span>WR Loading...</span>) : data ? (
                         <div>
                             <span>WR is {wrTime} by {wrRunner}</span>
                             <br />
@@ -80,7 +83,7 @@ export default class CategoryPageNew extends Component {
                         <div id='no-wr'>
                             <span>WR is unavailable.</span>
                         </div>
-                    )}
+                    )} */}
                 <br />
                 <h3 id='about'>About</h3>
                 <p id='desc'>{cat.desc}</p>

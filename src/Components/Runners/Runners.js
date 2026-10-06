@@ -23,7 +23,6 @@ export default class Runners extends Component {
         <label for='runner-type'>Sort Runners By: </label>
         <select id='runner-type' onChange={() => this.sortRunners()}>
           <option value='all'>All</option>
-          <option value='top10'>Top 10 Ranked Runner</option>
           <option value='lbmod'>Leaderboard Mod</option>
           <option value='discordmod'>Discord Mod</option>
         </select>
@@ -53,18 +52,6 @@ export default class Runners extends Component {
 
               case 'discordmod':
                 if(r.discordmod){
-                  return (
-                    <li key={r.id}>
-                      <Link to={`/runners/${r.id}`}>
-                        {r.name}
-                      </Link>
-                    </li>
-                  )
-                }
-                break;
-
-              case 'top10':
-                if(r.top10){
                   return (
                     <li key={r.id}>
                       <Link to={`/runners/${r.id}`}>
